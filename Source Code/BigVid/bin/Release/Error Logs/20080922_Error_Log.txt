@@ -1,0 +1,3 @@
+#22/09/2008 06:43:59 PM - Play Click: System.NullReferenceException: Object reference not set to an instance of an object.
+   at BigVid.Main_Screen.PlayClick(Object sender) in C:\Work Projects\Completed Projects\BigVid - 23 August 2008\Source Code\BigVid\Main_Screen.vb:line 658
+

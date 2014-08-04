@@ -1,0 +1,19 @@
+#23/09/2008 06:28:56 PM - Delete Folder Click: System.ComponentModel.InvalidEnumArgumentException: The value of argument 'showUI' (5) is invalid for Enum type 'UIOption'.
+Parameter name: showUI
+   at Microsoft.VisualBasic.FileIO.FileSystem.ToUIOptionInternal(UIOption showUI)
+   at Microsoft.VisualBasic.MyServices.FileSystemProxy.DeleteDirectory(String directory, UIOption showUI, RecycleOption recycle, UICancelOption onUserCancel)
+   at BigVid.Main_Screen.DeleteFolderLabel_Click(Object sender, EventArgs e) in C:\Work Projects\Completed Projects\BigVid - 23 August 2008\Source Code\BigVid\Main_Screen.vb:line 1409
+
+#23/09/2008 06:42:25 PM - Delete Click: System.UnauthorizedAccessException: Attempted to perform an unauthorized operation.
+   at Microsoft.VisualBasic.FileIO.FileSystem.ThrowWinIOError(Int32 errorCode)
+   at Microsoft.VisualBasic.FileIO.FileSystem.ShellFileOperation(SHFileOperationType OperationType, ShFileOperationFlags OperationFlags, String FullSource, String FullTarget, UICancelOption OnUserCancel, FileOrDirectory FileOrDirectory)
+   at Microsoft.VisualBasic.FileIO.FileSystem.ShellDelete(String FullPath, UIOptionInternal ShowUI, RecycleOption recycle, UICancelOption OnUserCancel, FileOrDirectory FileOrDirectory)
+   at Microsoft.VisualBasic.FileIO.FileSystem.DeleteFileInternal(String file, UIOptionInternal showUI, RecycleOption recycle, UICancelOption onUserCancel)
+   at Microsoft.VisualBasic.MyServices.FileSystemProxy.DeleteFile(String file, UIOption showUI, RecycleOption recycle)
+   at BigVid.Main_Screen.DeleteClick(Object sender, EventArgs e) in C:\Work Projects\Completed Projects\BigVid - 23 August 2008\Source Code\BigVid\Main_Screen.vb:line 931
+
+#23/09/2008 06:42:47 PM - Delete Folder Click: System.IO.IOException: Could not complete operation since directory is a root directory: 'D:\'.
+   at Microsoft.VisualBasic.FileIO.FileSystem.DeleteDirectoryInternal(String directory, DeleteDirectoryOption onDirectoryNotEmpty, UIOptionInternal showUI, RecycleOption recycle, UICancelOption onUserCancel)
+   at Microsoft.VisualBasic.MyServices.FileSystemProxy.DeleteDirectory(String directory, UIOption showUI, RecycleOption recycle)
+   at BigVid.Main_Screen.DeleteFolderLabel_Click(Object sender, EventArgs e) in C:\Work Projects\Completed Projects\BigVid - 23 August 2008\Source Code\BigVid\Main_Screen.vb:line 1411
+

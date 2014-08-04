@@ -1,0 +1,6 @@
+BigVid is a simple video menu for use on analog television sets when using said television set as the primary monitor. The menu allows for simple folder browsing and lists all located video files (for which it generates thumbnail images using Snatch-It as well.)
+
+As the application loads up, it asks you to input the base folder location, and once it processes your inputted folder, provides you with the video listing.
+
+
+-- Last Updated: 23/08/2008 --

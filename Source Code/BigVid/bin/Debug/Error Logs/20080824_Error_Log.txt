@@ -1,0 +1,25 @@
+#24/08/2008 07:48:31 AM - Load Folder: System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at Microsoft.VisualBasic.FileIO.FileSystem.CreateDirectory(String directory)
+   at Microsoft.VisualBasic.MyServices.FileSystemProxy.CreateDirectory(String directory)
+   at BigVid.Main_Screen.LoadFolder() in C:\Work Projects\Completed Projects\BigVid - 23 August 2008\Source Code\BigVid\Main_Screen.vb:line 266
+
+#24/08/2008 07:51:15 AM - Load Folder: System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.Path.GetFullPath(String path)
+   at Microsoft.VisualBasic.FileIO.FileSystem.CreateDirectory(String directory)
+   at Microsoft.VisualBasic.MyServices.FileSystemProxy.CreateDirectory(String directory)
+   at BigVid.Main_Screen.LoadFolder() in C:\Work Projects\Completed Projects\BigVid - 23 August 2008\Source Code\BigVid\Main_Screen.vb:line 267
+
+#24/08/2008 04:01:23 PM - Load Folder: System.NullReferenceException: Object variable or With block variable not set.
+   at Microsoft.VisualBasic.CompilerServices.Symbols.Container..ctor(Object Instance)
+   at Microsoft.VisualBasic.CompilerServices.NewLateBinding.LateGet(Object Instance, Type Type, String MemberName, Object[] Arguments, String[] ArgumentNames, Type[] TypeArguments, Boolean[] CopyBack)
+   at BigVid.Main_Screen.LoadFolder() in C:\Work Projects\Completed Projects\BigVid - 23 August 2008\Source Code\BigVid\Main_Screen.vb:line 323
+

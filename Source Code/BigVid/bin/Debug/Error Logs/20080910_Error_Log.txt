@@ -1,0 +1,43 @@
+#10/09/2008 08:14:02 AM - Load Settings: System.NotSupportedException: The given path's format is not supported.
+   at System.Security.Util.StringExpressionSet.CanonicalizePath(String path, Boolean needFullPath)
+   at System.Security.Util.StringExpressionSet.CreateListFromExpressions(String[] str, Boolean needFullPath)
+   at System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   at System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String[] pathList, Boolean checkForDuplicates, Boolean needFullPath)
+   at System.IO.FileInfo..ctor(String fileName)
+   at BigVid.Main_Screen.loadSettings() in Q:\Work Projects\In Progress\BigVid - 23 August 2008\Source Code\BigVid\Main_Screen.vb:line 115
+
+#10/09/2008 08:14:12 AM - Save Settings: System.IO.IOException: The process cannot access the file 'Q:\Work Projects\In Progress\BigVid - 23 August 2008\Source Code\BigVid\bin\Debug\config.sav' because it is being used by another process.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamWriter.CreateFile(String path, Boolean append)
+   at System.IO.StreamWriter..ctor(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.StreamWriter..ctor(String path, Boolean append)
+   at BigVid.Main_Screen.SaveSettings() in Q:\Work Projects\In Progress\BigVid - 23 August 2008\Source Code\BigVid\Main_Screen.vb:line 139
+
+#10/09/2008 06:46:03 PM - Load Folder: System.IO.FileNotFoundException: Could not find file 'Q:\Work Projects\In Progress\BigVid - 23 August 2008\Source Code\BigVid\bin\Debug\Thumbnails\Administrator_Desktop\Copy of Saber Marionette J - Episode 04.avi.txt'.
+File name: 'Q:\Work Projects\In Progress\BigVid - 23 August 2008\Source Code\BigVid\bin\Debug\Thumbnails\Administrator_Desktop\Copy of Saber Marionette J - Episode 04.avi.txt'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path, Encoding encoding)
+   at Microsoft.VisualBasic.MyServices.FileSystemProxy.ReadAllText(String file)
+   at BigVid.Main_Screen.LoadFolder() in Q:\Work Projects\In Progress\BigVid - 23 August 2008\Source Code\BigVid\Main_Screen.vb:line 325
+
+#10/09/2008 07:14:10 PM - Load Folder: System.ArgumentOutOfRangeException: Value of '350' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+   at System.Windows.Forms.ScrollProperties.set_Value(Int32 value)
+   at BigVid.Main_Screen.LoadFolder() in Q:\Work Projects\In Progress\BigVid - 23 August 2008\Source Code\BigVid\Main_Screen.vb:line 445
+
+#10/09/2008 07:17:00 PM - Load Folder: System.ArgumentOutOfRangeException: Value of '350' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+   at System.Windows.Forms.ScrollProperties.set_Value(Int32 value)
+   at BigVid.Main_Screen.LoadFolder() in Q:\Work Projects\In Progress\BigVid - 23 August 2008\Source Code\BigVid\Main_Screen.vb:line 222
+
+#10/09/2008 07:17:03 PM - Load Folder: System.ArgumentOutOfRangeException: Value of '350' is not valid for 'Value'. 'Value' should be between 'minimum' and 'maximum'.
+Parameter name: Value
+   at System.Windows.Forms.ScrollProperties.set_Value(Int32 value)
+   at BigVid.Main_Screen.LoadFolder() in Q:\Work Projects\In Progress\BigVid - 23 August 2008\Source Code\BigVid\Main_Screen.vb:line 222
+

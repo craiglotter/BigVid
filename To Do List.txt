@@ -1,0 +1,2 @@
+- generate thumbnails on different process; use folderwatcher to indicate progress.
+- clean thumbnail directories - if file doesn't exist, delete associated files

@@ -1,0 +1,3 @@
+APPLICATION_NAME=BigVid
+EXECUTABLE=BigVid.exe
+MANIFEST=http://www.commerce.uct.ac.za/Services/CodeUnit/AutoUpdate/BigVid/manifest.xml
